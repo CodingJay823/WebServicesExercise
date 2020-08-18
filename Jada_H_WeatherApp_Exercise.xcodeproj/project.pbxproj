@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979BD18624E5C41B00BECED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD18524E5C41B00BECED0 /* AppDelegate.swift */; };
+		979BD18824E5C41B00BECED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD18724E5C41B00BECED0 /* ViewController.swift */; };
+		979BD18B24E5C41B00BECED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BD18924E5C41B00BECED0 /* Main.storyboard */; };
+		979BD18E24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 979BD18C24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodeld */; };
+		979BD19024E5C41D00BECED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979BD18F24E5C41D00BECED0 /* Assets.xcassets */; };
+		979BD19324E5C41D00BECED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BD19124E5C41D00BECED0 /* LaunchScreen.storyboard */; };
+		979BD19E24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD19D24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift */; };
+		979BD1A924E5C41E00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD1A824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift */; };
+		979BD1B724E5C7CF00BECED0 /* weather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 979BD1B624E5C7CF00BECED0 /* weather.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979BD19A24E5C41D00BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BD17A24E5C41B00BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BD18124E5C41B00BECED0;
+			remoteInfo = Jada_H_WeatherApp_Exercise;
+		};
+		979BD1A524E5C41D00BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BD17A24E5C41B00BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BD18124E5C41B00BECED0;
+			remoteInfo = Jada_H_WeatherApp_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979BD18224E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jada_H_WeatherApp_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD18524E5C41B00BECED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979BD18724E5C41B00BECED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979BD18A24E5C41B00BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979BD18D24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jada_H_WeatherApp_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		979BD18F24E5C41D00BECED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979BD19224E5C41D00BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979BD19424E5C41D00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BD19924E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jada_H_WeatherApp_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD19D24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jada_H_WeatherApp_ExerciseTests.swift; sourceTree = "<group>"; };
+		979BD19F24E5C41D00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BD1A424E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jada_H_WeatherApp_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD1A824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jada_H_WeatherApp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		979BD1AA24E5C41E00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BD1B624E5C7CF00BECED0 /* weather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979BD17F24E5C41B00BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD19624E5C41D00BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD1A124E5C41D00BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979BD17924E5C41B00BECED0 = {
+			isa = PBXGroup;
+			children = (
+				979BD18424E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */,
+				979BD19C24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests */,
+				979BD1A724E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests */,
+				979BD18324E5C41B00BECED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979BD18324E5C41B00BECED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979BD18224E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.app */,
+				979BD19924E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.xctest */,
+				979BD1A424E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979BD18424E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				979BD18524E5C41B00BECED0 /* AppDelegate.swift */,
+				979BD1B624E5C7CF00BECED0 /* weather.jpeg */,
+				979BD18724E5C41B00BECED0 /* ViewController.swift */,
+				979BD18924E5C41B00BECED0 /* Main.storyboard */,
+				979BD18F24E5C41D00BECED0 /* Assets.xcassets */,
+				979BD19124E5C41D00BECED0 /* LaunchScreen.storyboard */,
+				979BD19424E5C41D00BECED0 /* Info.plist */,
+				979BD18C24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodeld */,
+			);
+			path = Jada_H_WeatherApp_Exercise;
+			sourceTree = "<group>";
+		};
+		979BD19C24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				979BD19D24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift */,
+				979BD19F24E5C41D00BECED0 /* Info.plist */,
+			);
+			path = Jada_H_WeatherApp_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		979BD1A724E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979BD1A824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift */,
+				979BD1AA24E5C41E00BECED0 /* Info.plist */,
+			);
+			path = Jada_H_WeatherApp_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979BD18124E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD1AD24E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_Exercise" */;
+			buildPhases = (
+				979BD17E24E5C41B00BECED0 /* Sources */,
+				979BD17F24E5C41B00BECED0 /* Frameworks */,
+				979BD18024E5C41B00BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jada_H_WeatherApp_Exercise;
+			productName = Jada_H_WeatherApp_Exercise;
+			productReference = 979BD18224E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979BD19824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD1B024E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_ExerciseTests" */;
+			buildPhases = (
+				979BD19524E5C41D00BECED0 /* Sources */,
+				979BD19624E5C41D00BECED0 /* Frameworks */,
+				979BD19724E5C41D00BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BD19B24E5C41D00BECED0 /* PBXTargetDependency */,
+			);
+			name = Jada_H_WeatherApp_ExerciseTests;
+			productName = Jada_H_WeatherApp_ExerciseTests;
+			productReference = 979BD19924E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979BD1A324E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD1B324E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_ExerciseUITests" */;
+			buildPhases = (
+				979BD1A024E5C41D00BECED0 /* Sources */,
+				979BD1A124E5C41D00BECED0 /* Frameworks */,
+				979BD1A224E5C41D00BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BD1A624E5C41D00BECED0 /* PBXTargetDependency */,
+			);
+			name = Jada_H_WeatherApp_ExerciseUITests;
+			productName = Jada_H_WeatherApp_ExerciseUITests;
+			productReference = 979BD1A424E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979BD17A24E5C41B00BECED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jada Harmon";
+				TargetAttributes = {
+					979BD18124E5C41B00BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					979BD19824E5C41D00BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BD18124E5C41B00BECED0;
+					};
+					979BD1A324E5C41D00BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BD18124E5C41B00BECED0;
+					};
+				};
+			};
+			buildConfigurationList = 979BD17D24E5C41B00BECED0 /* Build configuration list for PBXProject "Jada_H_WeatherApp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979BD17924E5C41B00BECED0;
+			productRefGroup = 979BD18324E5C41B00BECED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979BD18124E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */,
+				979BD19824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests */,
+				979BD1A324E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979BD18024E5C41B00BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD1B724E5C7CF00BECED0 /* weather.jpeg in Resources */,
+				979BD19324E5C41D00BECED0 /* LaunchScreen.storyboard in Resources */,
+				979BD19024E5C41D00BECED0 /* Assets.xcassets in Resources */,
+				979BD18B24E5C41B00BECED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD19724E5C41D00BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD1A224E5C41D00BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979BD17E24E5C41B00BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD18824E5C41B00BECED0 /* ViewController.swift in Sources */,
+				979BD18624E5C41B00BECED0 /* AppDelegate.swift in Sources */,
+				979BD18E24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD19524E5C41D00BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD19E24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD1A024E5C41D00BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD1A924E5C41E00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979BD19B24E5C41D00BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BD18124E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */;
+			targetProxy = 979BD19A24E5C41D00BECED0 /* PBXContainerItemProxy */;
+		};
+		979BD1A624E5C41D00BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BD18124E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */;
+			targetProxy = 979BD1A524E5C41D00BECED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979BD18924E5C41B00BECED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BD18A24E5C41B00BECED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979BD19124E5C41D00BECED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BD19224E5C41D00BECED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979BD1AB24E5C41E00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		979BD1AC24E5C41E00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979BD1AE24E5C41E00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		979BD1AF24E5C41E00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		979BD1B124E5C41E00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jada_H_WeatherApp_Exercise.app/Jada_H_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		979BD1B224E5C41E00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jada_H_WeatherApp_Exercise.app/Jada_H_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		979BD1B424E5C41E00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Jada_H_WeatherApp_Exercise;
+			};
+			name = Debug;
+		};
+		979BD1B524E5C41E00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Jada_H_WeatherApp_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979BD17D24E5C41B00BECED0 /* Build configuration list for PBXProject "Jada_H_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD1AB24E5C41E00BECED0 /* Debug */,
+				979BD1AC24E5C41E00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD1AD24E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD1AE24E5C41E00BECED0 /* Debug */,
+				979BD1AF24E5C41E00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD1B024E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD1B124E5C41E00BECED0 /* Debug */,
+				979BD1B224E5C41E00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD1B324E5C41E00BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WeatherApp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD1B424E5C41E00BECED0 /* Debug */,
+				979BD1B524E5C41E00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		979BD18C24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				979BD18D24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodel */,
+			);
+			currentVersion = 979BD18D24E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise.xcdatamodel */;
+			path = Jada_H_WeatherApp_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 979BD17A24E5C41B00BECED0 /* Project object */;
+}
