@@ -16,6 +16,7 @@
 		979BD19E24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD19D24E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseTests.swift */; };
 		979BD1A924E5C41E00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD1A824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift */; };
 		979BD1B724E5C7CF00BECED0 /* weather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 979BD1B624E5C7CF00BECED0 /* weather.jpeg */; };
+		979BD23924EC68AB00BECED0 /* kitty.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 979BD23824EC68AB00BECED0 /* kitty.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		979BD1A824E5C41D00BECED0 /* Jada_H_WeatherApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jada_H_WeatherApp_ExerciseUITests.swift; sourceTree = "<group>"; };
 		979BD1AA24E5C41E00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		979BD1B624E5C7CF00BECED0 /* weather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather.jpeg; sourceTree = "<group>"; };
+		979BD23824EC68AB00BECED0 /* kitty.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		979BD18424E5C41B00BECED0 /* Jada_H_WeatherApp_Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				979BD23824EC68AB00BECED0 /* kitty.jpeg */,
 				979BD18524E5C41B00BECED0 /* AppDelegate.swift */,
 				979BD1B624E5C7CF00BECED0 /* weather.jpeg */,
 				979BD18724E5C41B00BECED0 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979BD23924EC68AB00BECED0 /* kitty.jpeg in Resources */,
 				979BD1B724E5C7CF00BECED0 /* weather.jpeg in Resources */,
 				979BD19324E5C41D00BECED0 /* LaunchScreen.storyboard in Resources */,
 				979BD19024E5C41D00BECED0 /* Assets.xcassets in Resources */,
